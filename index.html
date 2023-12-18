@@ -10,29 +10,11 @@
   <body>
     <div class="container">
       <h1>TODO LIST</h1>
-      <form>
-        <input type="text" placeholder="Enter todo" />
-        <input type="submit" name="Submit" />
+      <form id="new-todo-form">
+        <input id="new-todo-input" type="text" placeholder="Enter todo" />
+        <input id="new-todo-submit" type="submit" name="Submit" />
       </form>
-      <ul>
-        <li>
-          <div class="list-item-container">
-            <input class="list-item-button" type="radio" />
-            <span class="list-item-text">Go Grocery Shopping</span>
-          </div>
-        </li>
-        <li>
-          <div class="list-item-container">
-            <input class="list-item-button" type="radio" />
-            <span class="list-item-text">Go Into Office</span>
-          </div>
-        </li>
-        <li>
-          <div class="list-item-container">
-            <input class="list-item-button" type="radio" />
-            <span class="list-item-text">Do Laundry</span>
-          </div>
-        </li>
+      <ul id="todo-list">
       </ul>
     </div>
     <script src="script.js"></script>
